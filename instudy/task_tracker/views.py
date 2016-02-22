@@ -1,7 +1,7 @@
 from django.contrib.auth.models import User
-from restapi.models import Task
+from models import Task
 from rest_framework import viewsets
-from restapi.serializers import UserSerializer, TaskSerializer
+from serializers import TaskSerializer
 
 
 class TaskViewSet(viewsets.ModelViewSet):
